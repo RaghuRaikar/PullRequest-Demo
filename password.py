@@ -19,7 +19,7 @@ def main():
             print("Password length should be at least 6 characters.")
         else:
             password = generate_password(length)
-            print(f"Generated passwords: {password}")
+            print(f"Generated passwords1: {password}")
     
     except ValueError:
         print("Please enter a valid number for the length.")
