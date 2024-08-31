@@ -2,6 +2,7 @@
 
 import random
 import string
+#ADDING COMMENT FOR PULL REQUEST
 
 def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
@@ -18,7 +19,7 @@ def main():
             print("Password length should be at least 6 characters.")
         else:
             password = generate_password(length)
-            print(f"Generated password: {password}")
+            print(f"Generated passwords: {password}")
     
     except ValueError:
         print("Please enter a valid number for the length.")
